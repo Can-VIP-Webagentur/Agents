@@ -1,0 +1,3 @@
+interface:
+  display_name: "German Frontend Naming"
+  short_description: "Use clear German names in frontend code"

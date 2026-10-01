@@ -1,0 +1,4 @@
+interface:
+  display_name: "ExportVIP"
+  short_description: "CI-naher VIP-Landingpage-Export mit Bildauswahl."
+  default_prompt: "/exportvip https://beispielseite.de/"

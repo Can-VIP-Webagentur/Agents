@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landingpages Wording VIP"
+  short_description: "Premium-Wording fuer Landingpages, Ads und CTAs."
+  default_prompt: "/wording landingpage fuer eine webagentur"

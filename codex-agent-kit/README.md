@@ -1,10 +1,10 @@
-# Codex Agency Agent Kit
+# Codex Agent Kit
 
-Dieses Paket ist für lokale Webentwicklung im Repository gedacht.
+Dieses Paket bringt Projektregeln, Agentenrollen und Skills für die Webentwicklung mit. Eine Übersicht in einfacher Sprache findest du in der [README im Hauptordner](../README.md).
 
 ## Installation
 
-1. Kopiere den Inhalt dieses Ordners in den Root deines Kunden-Repositories.
+1. Kopiere den Inhalt dieses Ordners in den Hauptordner deines Projekts.
 2. Behalte eine vorhandene `AGENTS.md` und führe die Regeln bei Bedarf zusammen.
 3. Installiere GSAP, falls es noch nicht im Projekt vorhanden ist:
 
@@ -16,18 +16,18 @@ Dieses Paket ist für lokale Webentwicklung im Repository gedacht.
 5. Prüfe die Einrichtung mit:
 
    ```text
-   Prüfe die aktiven Projektanweisungen und nenne die erkannten Agents.
+   Prüfe die aktiven Projektanweisungen und nenne die erkannten Agentenrollen.
    Nimm keine Änderungen vor.
    ```
 
 ## Enthalten
 
 - `AGENTS.md` – dauerhafte Projektregeln und automatisches Routing
-- `.codex/config.toml` – Multi-Agent-Konfiguration
-- `.codex/agents/` – spezialisierte Agents
+- `.agents/skills/` – GSAP-, Three.js- und weitere Web-Skills
 - `src/animations/gsap.ts` – zentraler lokaler GSAP-Import
-- `content/` – Social-Media- und SEO-Arbeitsmaterial
-- `public/social/` – lokale Social-Media-Assets
+- `THIRD_PARTY_LICENSES/` – Lizenztexte für mitgelieferte GSAP- und Three.js-Skills
+
+Die Rollen `lead`, `ui_gsap`, `local_seo`, `reviewer` und `social_content` sind in `AGENTS.md` beschrieben. Separate Agent-Dateien sind in diesem Paket derzeit nicht enthalten.
 
 ## Feste Regeln
 
