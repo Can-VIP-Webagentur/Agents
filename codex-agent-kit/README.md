@@ -23,7 +23,7 @@ Dieses Paket bringt Projektregeln, Agentenrollen und Skills für die Webentwickl
 ## Enthalten
 
 - `AGENTS.md` – dauerhafte Projektregeln und automatisches Routing
-- `.agents/skills/` – GSAP-, Three.js- und weitere Web-Skills
+- `.agents/skills/` – 14 Skills für Agentenkoordination, Webentwicklung, GSAP, Three.js und Landingpages
 - `src/animations/gsap.ts` – zentraler lokaler GSAP-Import
 - `THIRD_PARTY_LICENSES/` – Lizenztexte für mitgelieferte GSAP- und Three.js-Skills
 

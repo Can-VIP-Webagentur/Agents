@@ -32,10 +32,11 @@ Die Rollen werden über die Projektregeln angesprochen. Eigene Agent-Konfigurati
 
 ## Skills
 
-Alle 13 Skills liegen unter `codex-agent-kit/.agents/skills/`.
+Alle 14 Skills liegen unter `codex-agent-kit/.agents/skills/`.
 
 | Skill | Wann er hilft |
 | --- | --- |
+| `agent-orchestration` | Teilt größere Aufgaben bei Bedarf in unabhängige Arbeit für mehrere Codex-Agenten auf und fügt die Ergebnisse zusammen. |
 | `frontend-skill` | Plant und gestaltet visuell starke Webseiten, Apps und Prototypen. Für eine sichere Auswahl `$frontend-skill` nennen. |
 | `german-frontend-naming` | Vergibt verständliche deutsche Namen für eigene HTML-, CSS- und JavaScript-Elemente. |
 | `threejs-web` | Plant und baut interaktive 3D-Erlebnisse mit Three.js. |
@@ -56,7 +57,7 @@ Alle 13 Skills liegen unter `codex-agent-kit/.agents/skills/`.
 codex-agent-kit/
 ├── AGENTS.md                 Projektregeln und Rollen
 ├── README.md                 Anleitung für das Kit
-├── .agents/skills/           Die 13 Skills
+├── .agents/skills/           Die 14 Skills
 ├── THIRD_PARTY_LICENSES/     Lizenztexte für GSAP und Three.js Skills
 └── src/animations/gsap.ts    Zentraler GSAP-Import
 ```
